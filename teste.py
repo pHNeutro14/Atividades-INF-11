@@ -1,5 +1,10 @@
-if 5 < 8 or 9 > 3:
-    print("VDD")
+a = int(input("Insira um valor "))
+b = int(input("Insira um valor "))
 
-else:
-    print("Fake")
+print(a, b)
+
+c = a
+a = b
+b = c
+
+print(a, b)
