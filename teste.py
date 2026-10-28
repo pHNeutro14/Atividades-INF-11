@@ -1,10 +1,11 @@
-a = int(input("Insira um valor "))
-b = int(input("Insira um valor "))
+idade = 17
 
-print(a, b)
+if idade <= 18:
+    print("Menor de idade")
 
-c = a
-a = b
-b = c
 
-print(a, b)
+
+else:
+    print("Maior de idade")
+
+    print("67")
