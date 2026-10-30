@@ -1,11 +1,2 @@
-idade = 17
-
-if idade <= 18:
-    print("Menor de idade")
-
-
-
-else:
-    print("Maior de idade")
-
-    print("67")
+for i in range(1, 20+1):
+    print("I = ", i)
